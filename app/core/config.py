@@ -10,7 +10,7 @@ class Settings:
     JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY','secret')
     JWT_ALGO = 'HS256'
     REDDIS_URL = os.getenv('REDDIS_URL','redis://localhost:6379')
-    MODEL_PATH = 'app/model/model.joblib'
+    MODEL_PATH = 'app/models/model.joblib'
 
 
 
